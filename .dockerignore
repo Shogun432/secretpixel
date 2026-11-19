@@ -1,0 +1,30 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+env/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/src/
+frontend/.env*
+
+# Local Windows build artifacts
+toolchain/
+secretpixel.exe
+*.o
+*.obj
+
+# Temporary test files
+test_cover.bmp
+test_stego.bmp
+demo_stego.bmp
+json_stego.bmp
+samples/downloaded_stego_qa.bmp
