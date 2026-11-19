@@ -30,9 +30,6 @@ RUN gcc -Wall -Wextra -std=c99 -O2 main.c caesar.c bmp.c steganography.c -o secr
     chmod +x secretpixel && \
     ./secretpixel test
 
-# Copy built frontend if present (optional for unified container deployment)
-COPY frontend/dist/ ./frontend/dist/
-
 # Set production environment defaults for Render
 ENV PORT=8000
 ENV HOST=0.0.0.0
